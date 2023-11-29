@@ -20,12 +20,15 @@ if __name__ == '__main__':
                         default="conv",
                         help="Type of input topology, gemm: MNK, conv: conv"
                         )
+    #yujin
+    parser.add_argument('-m', type=str, default="resnet18", help="Model name")
 
     args = parser.parse_args()
-    topology = args.t
-    config = args.c
-    logpath = args.p
+    topology = args.t #yujin: select model
+    config = args.c #yujin: HW config file
+    logpath = args.p #yujin: output directory
     inp_type = args.i
+    model_name = args.m #yujin
 
     gemm_input = False
     if inp_type == 'gemm':
@@ -34,6 +37,7 @@ if __name__ == '__main__':
     s = scalesim(save_disk_space=True, verbose=True,
                  config=config,
                  topology=topology,
-                 input_type_gemm=gemm_input
+                 #input_type_gemm=gemm_input
+                 model_name=model_name,
                  )
     s.run_scale(top_path=logpath)

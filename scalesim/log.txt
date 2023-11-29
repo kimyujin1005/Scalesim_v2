@@ -1,0 +1,753 @@
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	6144
+SRAM Filter (kB): 	6144
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Weight Stationary
+CSV file path: 	/root/workspace/scale-sim-v2/topologies/conv_nets/Resnet18_yujin.csv
+Number of Remote Memory Banks: 	1
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0
+ 
+TPU multiplication count:  113836800
+Ideal multiplication count:  3450820
+Normalized multiplication count:  0.030313747399786362
+ 
+TPU total filter read count:  9408
+Ideal sram filter read count:  2018
+Normalized sram filter read count:  0.2144982993197279
+-------------------------------------------------------------
+PSUM data movement (8bit):  110279400
+Energy data movement (8KB SRAM, 7nm):  103386937.5
+Energy data movement (32KB SRAM, 7nm):  117171862.5
+Energy data movement (1MB SRAM, 7nm):  192988950.0
+ 
+Energy data movement (8KB SRAM, 45nm):  137849250.0
+Energy data movement (32KB SRAM, 45nm):  275698500.0
+Energy data movement (1MB SRAM, 45nm):  1378492500.0
+ 
+Energy multiplication count (7nm):  7727018.600000001
+Energy multiplication count (45nm):  22077196.0
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.379926055827017
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.163916196603951
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.975861970877098
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.2439654927192745
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.487930985438549
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.43965492719275
+-------------------------------------------------------------
+Compute cycles: 121939
+Stall cycles: 0
+Overall utilization: 91.17%
+Mapping efficiency: 91.88%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.040 words/cycle
+Average OFMAP DRAM BW: 34.695 words/cycle
+
+Running Layer 1
+ 
+TPU multiplication count:  107495424
+Ideal multiplication count:  3259656
+Normalized multiplication count:  0.030323672196502057
+ 
+TPU total filter read count:  36864
+Ideal sram filter read count:  4176
+Normalized sram filter read count:  0.11328125
+-------------------------------------------------------------
+PSUM data movement (8bit):  104136192
+Energy data movement (8KB SRAM, 7nm):  97627680.0
+Energy data movement (32KB SRAM, 7nm):  110644704.0
+Energy data movement (1MB SRAM, 7nm):  182238336.0
+ 
+Energy data movement (8KB SRAM, 45nm):  130170240.0
+Energy data movement (32KB SRAM, 45nm):  260340480.0
+Energy data movement (1MB SRAM, 45nm):  1301702400.0
+ 
+Energy multiplication count (7nm):  7296503.760000001
+Energy multiplication count (45nm):  20847153.6
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380063001571042
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.164071401780514
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.97611760293261
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244029400733153
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.488058801466305
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.44029400733153
+-------------------------------------------------------------
+Compute cycles: 108359
+Stall cycles: 0
+Overall utilization: 96.88%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.038 words/cycle
+Average OFMAP DRAM BW: 41.395 words/cycle
+
+Running Layer 2
+ 
+TPU multiplication count:  107495424
+Ideal multiplication count:  3260628
+Normalized multiplication count:  0.030332714441872428
+ 
+TPU total filter read count:  36864
+Ideal sram filter read count:  5688
+Normalized sram filter read count:  0.154296875
+-------------------------------------------------------------
+PSUM data movement (8bit):  104136192
+Energy data movement (8KB SRAM, 7nm):  97627680.0
+Energy data movement (32KB SRAM, 7nm):  110644704.0
+Energy data movement (1MB SRAM, 7nm):  182238336.0
+ 
+Energy data movement (8KB SRAM, 45nm):  130170240.0
+Energy data movement (32KB SRAM, 45nm):  260340480.0
+Energy data movement (1MB SRAM, 45nm):  1301702400.0
+ 
+Energy multiplication count (7nm):  7296435.720000001
+Energy multiplication count (45nm):  20846959.200000003
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380187772009865
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.164212808277846
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.976350507751746
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244087626937937
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.488175253875873
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.440876269379366
+-------------------------------------------------------------
+Compute cycles: 108359
+Stall cycles: 0
+Overall utilization: 96.88%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.040 words/cycle
+Average OFMAP DRAM BW: 41.395 words/cycle
+
+Running Layer 3
+ 
+TPU multiplication count:  107495424
+Ideal multiplication count:  3260124
+Normalized multiplication count:  0.030328025870198904
+ 
+TPU total filter read count:  36864
+Ideal sram filter read count:  4932
+Normalized sram filter read count:  0.1337890625
+-------------------------------------------------------------
+PSUM data movement (8bit):  104136192
+Energy data movement (8KB SRAM, 7nm):  97627680.0
+Energy data movement (32KB SRAM, 7nm):  110644704.0
+Energy data movement (1MB SRAM, 7nm):  182238336.0
+ 
+Energy data movement (8KB SRAM, 45nm):  130170240.0
+Energy data movement (32KB SRAM, 45nm):  260340480.0
+Energy data movement (1MB SRAM, 45nm):  1301702400.0
+ 
+Energy multiplication count (7nm):  7296471.000000001
+Energy multiplication count (45nm):  20847060.0
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380123075936297
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.164139486061137
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.976229741747755
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.24405743543694
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.48811487087388
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.440574354369396
+-------------------------------------------------------------
+Compute cycles: 108359
+Stall cycles: 0
+Overall utilization: 96.88%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.039 words/cycle
+Average OFMAP DRAM BW: 41.395 words/cycle
+
+Running Layer 4
+ 
+TPU multiplication count:  107495424
+Ideal multiplication count:  3260304
+Normalized multiplication count:  0.030329700360082305
+ 
+TPU total filter read count:  36864
+Ideal sram filter read count:  5184
+Normalized sram filter read count:  0.140625
+-------------------------------------------------------------
+PSUM data movement (8bit):  104136192
+Energy data movement (8KB SRAM, 7nm):  97627680.0
+Energy data movement (32KB SRAM, 7nm):  110644704.0
+Energy data movement (1MB SRAM, 7nm):  182238336.0
+ 
+Energy data movement (8KB SRAM, 45nm):  130170240.0
+Energy data movement (32KB SRAM, 45nm):  260340480.0
+Energy data movement (1MB SRAM, 45nm):  1301702400.0
+ 
+Energy multiplication count (7nm):  7296458.4
+Energy multiplication count (45nm):  20847024.0
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380146181605037
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.164165672485709
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.976272872329403
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244068218082351
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.488136436164702
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.44068218082351
+-------------------------------------------------------------
+Compute cycles: 108359
+Stall cycles: 0
+Overall utilization: 96.88%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.040 words/cycle
+Average OFMAP DRAM BW: 41.395 words/cycle
+
+Running Layer 5
+ 
+TPU multiplication count:  57802752
+Ideal multiplication count:  1756368
+Normalized multiplication count:  0.03038554288903061
+ 
+TPU total filter read count:  73728
+Ideal sram filter read count:  10080
+Normalized sram filter read count:  0.13671875
+-------------------------------------------------------------
+PSUM data movement (8bit):  55996416
+Energy data movement (8KB SRAM, 7nm):  52496640.0
+Energy data movement (32KB SRAM, 7nm):  59496192.0
+Energy data movement (1MB SRAM, 7nm):  97993728.0
+ 
+Energy data movement (8KB SRAM, 45nm):  69995520.0
+Energy data movement (32KB SRAM, 45nm):  139991040.0
+Energy data movement (1MB SRAM, 45nm):  699955200.0
+ 
+Energy multiplication count (7nm):  3923246.8800000004
+Energy multiplication count (45nm):  11209276.8
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.38091677778891
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.165039014827432
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.9777113185393
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244427829634825
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.48885565926965
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.44427829634825
+-------------------------------------------------------------
+Compute cycles: 63215
+Stall cycles: 0
+Overall utilization: 89.30%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 35.986 words/cycle
+
+Running Layer 6
+ 
+TPU multiplication count:  99680256
+Ideal multiplication count:  3028464
+Normalized multiplication count:  0.03038178393121302
+ 
+TPU total filter read count:  147456
+Ideal sram filter read count:  19728
+Normalized sram filter read count:  0.1337890625
+-------------------------------------------------------------
+PSUM data movement (8bit):  96565248
+Energy data movement (8KB SRAM, 7nm):  90529920.0
+Energy data movement (32KB SRAM, 7nm):  102600576.0
+Energy data movement (1MB SRAM, 7nm):  168989184.0
+ 
+Energy data movement (8KB SRAM, 45nm):  120706560.0
+Energy data movement (32KB SRAM, 45nm):  241413120.0
+Energy data movement (1MB SRAM, 45nm):  1207065600.0
+ 
+Energy multiplication count (7nm):  6765625.44
+Energy multiplication count (45nm):  19330358.400000002
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380864903452295
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.164980223912602
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.977614486444285
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244403621611071
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.488807243222142
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.44403621611071
+-------------------------------------------------------------
+Compute cycles: 110879
+Stall cycles: 0
+Overall utilization: 87.79%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 29.574 words/cycle
+
+Running Layer 7
+ 
+TPU multiplication count:  6889472
+Ideal multiplication count:  209336
+Normalized multiplication count:  0.030384911935196195
+ 
+TPU total filter read count:  8192
+Ideal sram filter read count:  1512
+Normalized sram filter read count:  0.1845703125
+-------------------------------------------------------------
+PSUM data movement (8bit):  6674176
+Energy data movement (8KB SRAM, 7nm):  6257040.0
+Energy data movement (32KB SRAM, 7nm):  7091312.0
+Energy data movement (1MB SRAM, 7nm):  11679808.0
+ 
+Energy data movement (8KB SRAM, 45nm):  8342720.0
+Energy data movement (32KB SRAM, 45nm):  16685440.0
+Energy data movement (1MB SRAM, 45nm):  83427200.0
+ 
+Energy multiplication count (7nm):  467609.52
+Energy multiplication count (45nm):  1336027.2000000002
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380908070477265
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.165029146540899
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.977695064890895
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244423766222723
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.488847532445446
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.44423766222723
+-------------------------------------------------------------
+Compute cycles: 7479
+Stall cycles: 0
+Overall utilization: 89.96%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.040 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 8
+ 
+TPU multiplication count:  99680256
+Ideal multiplication count:  3027312
+Normalized multiplication count:  0.030370226978550297
+ 
+TPU total filter read count:  147456
+Ideal sram filter read count:  17136
+Normalized sram filter read count:  0.1162109375
+-------------------------------------------------------------
+PSUM data movement (8bit):  96565248
+Energy data movement (8KB SRAM, 7nm):  90529920.0
+Energy data movement (32KB SRAM, 7nm):  102600576.0
+Energy data movement (1MB SRAM, 7nm):  168989184.0
+ 
+Energy data movement (8KB SRAM, 45nm):  120706560.0
+Energy data movement (32KB SRAM, 45nm):  241413120.0
+Energy data movement (1MB SRAM, 45nm):  1207065600.0
+ 
+Energy multiplication count (7nm):  6765706.080000001
+Energy multiplication count (45nm):  19330588.8
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380705417815015
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.164799473523683
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.97731677992136
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244329194980341
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.488658389960682
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.44329194980341
+-------------------------------------------------------------
+Compute cycles: 110879
+Stall cycles: 0
+Overall utilization: 87.79%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 29.574 words/cycle
+
+Running Layer 9
+ 
+TPU multiplication count:  99680256
+Ideal multiplication count:  3029184
+Normalized multiplication count:  0.03038900702662722
+ 
+TPU total filter read count:  147456
+Ideal sram filter read count:  20592
+Normalized sram filter read count:  0.1396484375
+-------------------------------------------------------------
+PSUM data movement (8bit):  96565248
+Energy data movement (8KB SRAM, 7nm):  90529920.0
+Energy data movement (32KB SRAM, 7nm):  102600576.0
+Energy data movement (1MB SRAM, 7nm):  168989184.0
+ 
+Energy data movement (8KB SRAM, 45nm):  120706560.0
+Energy data movement (32KB SRAM, 45nm):  241413120.0
+Energy data movement (1MB SRAM, 45nm):  1207065600.0
+ 
+Energy multiplication count (7nm):  6765575.040000001
+Energy multiplication count (45nm):  19330214.400000002
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.380964583906232
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.165093195093728
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.977800556624967
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.244450139156242
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.488900278312483
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.44450139156242
+-------------------------------------------------------------
+Compute cycles: 110879
+Stall cycles: 0
+Overall utilization: 87.79%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 29.574 words/cycle
+
+Running Layer 10
+ 
+TPU multiplication count:  57802752
+Ideal multiplication count:  1761984
+Normalized multiplication count:  0.030482700892857144
+ 
+TPU total filter read count:  294912
+Ideal sram filter read count:  34848
+Normalized sram filter read count:  0.1181640625
+-------------------------------------------------------------
+PSUM data movement (8bit):  55996416
+Energy data movement (8KB SRAM, 7nm):  52496640.0
+Energy data movement (32KB SRAM, 7nm):  59496192.0
+Energy data movement (1MB SRAM, 7nm):  97993728.0
+ 
+Energy data movement (8KB SRAM, 45nm):  69995520.0
+Energy data movement (32KB SRAM, 45nm):  139991040.0
+Energy data movement (1MB SRAM, 45nm):  699955200.0
+ 
+Energy multiplication count (7nm):  3922853.7600000002
+Energy multiplication count (45nm):  11208153.600000001
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.382257716382473
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.16655874523347
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.980214403913948
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.245053600978487
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.490107201956974
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.45053600978487
+-------------------------------------------------------------
+Compute cycles: 83519
+Stall cycles: 0
+Overall utilization: 67.59%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 30.796 words/cycle
+
+Running Layer 11
+ 
+TPU multiplication count:  84934656
+Ideal multiplication count:  2609280
+Normalized multiplication count:  0.030721028645833332
+ 
+TPU total filter read count:  589824
+Ideal sram filter read count:  67392
+Normalized sram filter read count:  0.1142578125
+-------------------------------------------------------------
+PSUM data movement (8bit):  82280448
+Energy data movement (8KB SRAM, 7nm):  77137920.0
+Energy data movement (32KB SRAM, 7nm):  87422976.0
+Energy data movement (1MB SRAM, 7nm):  143990784.0
+ 
+Energy data movement (8KB SRAM, 45nm):  102850560.0
+Energy data movement (32KB SRAM, 45nm):  205701120.0
+Energy data movement (1MB SRAM, 45nm):  1028505600.0
+ 
+Energy multiplication count (7nm):  5762776.32
+Energy multiplication count (45nm):  16465075.200000001
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.385548165784092
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.17028792122197
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.986356576130305
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.246589144032576
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.493178288065153
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.465891440325755
+-------------------------------------------------------------
+Compute cycles: 137087
+Stall cycles: 0
+Overall utilization: 60.50%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 26.460 words/cycle
+
+Running Layer 12
+ 
+TPU multiplication count:  7372800
+Ideal multiplication count:  225920
+Normalized multiplication count:  0.03064236111111111
+ 
+TPU total filter read count:  32768
+Ideal sram filter read count:  5408
+Normalized sram filter read count:  0.1650390625
+-------------------------------------------------------------
+PSUM data movement (8bit):  7142400
+Energy data movement (8KB SRAM, 7nm):  6696000.0
+Energy data movement (32KB SRAM, 7nm):  7588800.0
+Energy data movement (1MB SRAM, 7nm):  12499200.0
+ 
+Energy data movement (8KB SRAM, 45nm):  8928000.0
+Energy data movement (32KB SRAM, 45nm):  17856000.0
+Energy data movement (1MB SRAM, 45nm):  89280000.0
+ 
+Energy multiplication count (7nm):  500281.60000000003
+Energy multiplication count (45nm):  1429376.0
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.38446187107421
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.169056787217437
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.984328826005193
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.246082206501298
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.492164413002596
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.460822065012984
+-------------------------------------------------------------
+Compute cycles: 10207
+Stall cycles: 0
+Overall utilization: 70.54%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 3.987 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 13
+ 
+TPU multiplication count:  84934656
+Ideal multiplication count:  2612736
+Normalized multiplication count:  0.03076171875
+ 
+TPU total filter read count:  589824
+Ideal sram filter read count:  72000
+Normalized sram filter read count:  0.1220703125
+-------------------------------------------------------------
+PSUM data movement (8bit):  82280448
+Energy data movement (8KB SRAM, 7nm):  77137920.0
+Energy data movement (32KB SRAM, 7nm):  87422976.0
+Energy data movement (1MB SRAM, 7nm):  143990784.0
+ 
+Energy data movement (8KB SRAM, 45nm):  102850560.0
+Energy data movement (32KB SRAM, 45nm):  205701120.0
+Energy data movement (1MB SRAM, 45nm):  1028505600.0
+ 
+Energy multiplication count (7nm):  5762534.4
+Energy multiplication count (45nm):  16464384.0
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.386110111550916
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.17092479309104
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.98740554156171
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.246851385390428
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.493702770780857
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.468513853904284
+-------------------------------------------------------------
+Compute cycles: 137087
+Stall cycles: 0
+Overall utilization: 60.50%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 26.460 words/cycle
+
+Running Layer 14
+ 
+TPU multiplication count:  84934656
+Ideal multiplication count:  2619072
+Normalized multiplication count:  0.030836317274305556
+ 
+TPU total filter read count:  589824
+Ideal sram filter read count:  81792
+Normalized sram filter read count:  0.138671875
+-------------------------------------------------------------
+PSUM data movement (8bit):  82280448
+Energy data movement (8KB SRAM, 7nm):  77137920.0
+Energy data movement (32KB SRAM, 7nm):  87422976.0
+Energy data movement (1MB SRAM, 7nm):  143990784.0
+ 
+Energy data movement (8KB SRAM, 45nm):  102850560.0
+Energy data movement (32KB SRAM, 45nm):  205701120.0
+Energy data movement (1MB SRAM, 45nm):  1028505600.0
+ 
+Energy multiplication count (7nm):  5762090.880000001
+Energy multiplication count (45nm):  16463116.8
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.387140468010111
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.172092530411458
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.989328873618874
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.247332218404718
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.494664436809437
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.47332218404719
+-------------------------------------------------------------
+Compute cycles: 137087
+Stall cycles: 0
+Overall utilization: 60.50%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 26.460 words/cycle
+
+Running Layer 15
+ 
+TPU multiplication count:  57802752
+Ideal multiplication count:  1814400
+Normalized multiplication count:  0.03138950892857143
+ 
+TPU total filter read count:  1179648
+Ideal sram filter read count:  148608
+Normalized sram filter read count:  0.1259765625
+-------------------------------------------------------------
+PSUM data movement (8bit):  55996416
+Energy data movement (8KB SRAM, 7nm):  52496640.0
+Energy data movement (32KB SRAM, 7nm):  59496192.0
+Energy data movement (1MB SRAM, 7nm):  97993728.0
+ 
+Energy data movement (8KB SRAM, 45nm):  69995520.0
+Energy data movement (32KB SRAM, 45nm):  139991040.0
+Energy data movement (1MB SRAM, 45nm):  699955200.0
+ 
+Energy multiplication count (7nm):  3919184.6400000006
+Energy multiplication count (45nm):  11197670.4
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.394786115512025
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.180757597580294
+Energy data movement / multiplication (1MB SRAM, 7nm):  25.00360074895578
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.250900187238946
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.501800374477892
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.509001872389454
+-------------------------------------------------------------
+Compute cycles: 164735
+Stall cycles: 0
+Overall utilization: 34.27%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 7.975 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 19.470 words/cycle
+
+Running Layer 16
+ 
+TPU multiplication count:  58982400
+Ideal multiplication count:  1912320
+Normalized multiplication count:  0.032421875
+ 
+TPU total filter read count:  2359296
+Ideal sram filter read count:  267264
+Normalized sram filter read count:  0.11328125
+-------------------------------------------------------------
+PSUM data movement (8bit):  57139200
+Energy data movement (8KB SRAM, 7nm):  53568000.0
+Energy data movement (32KB SRAM, 7nm):  60710400.0
+Energy data movement (1MB SRAM, 7nm):  99993600.0
+ 
+Energy data movement (8KB SRAM, 45nm):  71424000.0
+Energy data movement (32KB SRAM, 45nm):  142848000.0
+Energy data movement (1MB SRAM, 45nm):  714240000.0
+ 
+Energy multiplication count (7nm):  3994905.6000000006
+Energy multiplication count (45nm):  11414016.0
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.409077801487973
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.19695484168637
+Energy data movement / multiplication (1MB SRAM, 7nm):  25.03027856277755
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.257569640694388
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.515139281388777
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.575696406943884
+-------------------------------------------------------------
+Compute cycles: 274175
+Stall cycles: 0
+Overall utilization: 21.01%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 3.987 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 12.888 words/cycle
+
+Running Layer 17
+ 
+TPU multiplication count:  8388608
+Ideal multiplication count:  261504
+Normalized multiplication count:  0.0311737060546875
+ 
+TPU total filter read count:  131072
+Ideal sram filter read count:  21632
+Normalized sram filter read count:  0.1650390625
+-------------------------------------------------------------
+PSUM data movement (8bit):  8126464
+Energy data movement (8KB SRAM, 7nm):  7618560.0
+Energy data movement (32KB SRAM, 7nm):  8634368.0
+Energy data movement (1MB SRAM, 7nm):  14221312.0
+ 
+Energy data movement (8KB SRAM, 45nm):  10158080.0
+Energy data movement (32KB SRAM, 45nm):  20316160.0
+Energy data movement (1MB SRAM, 45nm):  101580800.0
+ 
+Energy multiplication count (7nm):  568897.28
+Energy multiplication count (45nm):  1625420.8
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.391802470913554
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.177376133702028
+Energy data movement / multiplication (1MB SRAM, 7nm):  24.99803127903863
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.249507819759659
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.499015639519317
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.495078197596584
+-------------------------------------------------------------
+Compute cycles: 20223
+Stall cycles: 0
+Overall utilization: 40.51%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 1.994 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 18
+ 
+TPU multiplication count:  58982400
+Ideal multiplication count:  1937664
+Normalized multiplication count:  0.0328515625
+ 
+TPU total filter read count:  2359296
+Ideal sram filter read count:  311040
+Normalized sram filter read count:  0.1318359375
+-------------------------------------------------------------
+PSUM data movement (8bit):  57139200
+Energy data movement (8KB SRAM, 7nm):  53568000.0
+Energy data movement (32KB SRAM, 7nm):  60710400.0
+Energy data movement (1MB SRAM, 7nm):  99993600.0
+ 
+Energy data movement (8KB SRAM, 45nm):  71424000.0
+Energy data movement (32KB SRAM, 45nm):  142848000.0
+Energy data movement (1MB SRAM, 45nm):  714240000.0
+ 
+Energy multiplication count (7nm):  3993131.5200000005
+Energy multiplication count (45nm):  11408947.200000001
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.415035225286042
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.203706588657514
+Energy data movement / multiplication (1MB SRAM, 7nm):  25.04139908720061
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.260349771800153
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.520699543600307
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.60349771800153
+-------------------------------------------------------------
+Compute cycles: 274175
+Stall cycles: 0
+Overall utilization: 21.01%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 3.987 words/cycle
+Average Filter DRAM BW: 0.041 words/cycle
+Average OFMAP DRAM BW: 12.888 words/cycle
+
+Running Layer 19
+ 
+TPU multiplication count:  58982400
+Ideal multiplication count:  1949184
+Normalized multiplication count:  0.033046875
+ 
+TPU total filter read count:  2359296
+Ideal sram filter read count:  331776
+Normalized sram filter read count:  0.140625
+-------------------------------------------------------------
+PSUM data movement (8bit):  57139200
+Energy data movement (8KB SRAM, 7nm):  53568000.0
+Energy data movement (32KB SRAM, 7nm):  60710400.0
+Energy data movement (1MB SRAM, 7nm):  99993600.0
+ 
+Energy data movement (8KB SRAM, 45nm):  71424000.0
+Energy data movement (32KB SRAM, 45nm):  142848000.0
+Energy data movement (1MB SRAM, 45nm):  714240000.0
+ 
+Energy multiplication count (7nm):  3992325.1200000006
+Energy multiplication count (45nm):  11406643.200000001
+-------------------------------------------------------------
+Energy data movement / multiplication (8KB SRAM, 7nm):  13.417744895485864
+Energy data movement / multiplication (32KB SRAM, 7nm):  15.206777548217314
+Energy data movement / multiplication (1MB SRAM, 7nm):  25.04645713824028
+Energy data movement / multiplication (8KB SRAM, 45nm):  6.26161428456007
+Energy data movement / multiplication (32KB SRAM, 45nm):  12.52322856912014
+Energy data movement / multiplication (1MB SRAM, 45nm):  62.616142845600706
+-------------------------------------------------------------
+Compute cycles: 274175
+Stall cycles: 0
+Overall utilization: 21.01%
+Mapping efficiency: 100.00%
+Average IFMAP DRAM BW: 3.987 words/cycle
+Average Filter DRAM BW: 0.040 words/cycle
+Average OFMAP DRAM BW: 12.888 words/cycle
+************ SCALE SIM Run Complete ****************

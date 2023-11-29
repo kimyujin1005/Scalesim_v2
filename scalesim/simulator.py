@@ -74,7 +74,7 @@ class simulator:
 
             if self.verbose:
                 layer_id = single_layer_obj.get_layer_id()
-                print('\nRunning Layer ' + str(layer_id))
+                print('\n[Running Layer ' + str(layer_id) + ']')
 
             single_layer_obj.run()
 
